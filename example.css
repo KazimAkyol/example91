@@ -19,6 +19,7 @@ header {
     float: right;
     padding-top: 10px;
     padding-right: 0.5rem;
+    color: #910102;
 }
 
 .sign-in:hover{
@@ -26,7 +27,7 @@ header {
 }
 
 .sign-in a{
-    color: #920101;
+    color: #920102;
     text-decoration: none;
     font-weight: 700;
 }
@@ -34,8 +35,8 @@ header {
 /* NAV */
 
 nav.sticky{
-    background-color: #cab3a79c;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    background-color: #fee140;
+    background-image: linear-gradient(90deg, #fee140 0%, #fa709a 100%);
     padding: 2rem;
     text-align: center;
 }
