@@ -52,3 +52,45 @@ nav.sticky a{
 nav.sticky a:hover{
     color: white;
 }
+
+nav.banner{
+    /* border: 2px solid blue; */
+    position: relative;
+}
+
+nav.banner img{
+    width: 100%;
+    max-height: calc(100vh - 165px)
+}
+
+nav.banner .hero{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 33%;
+    left: 10%;
+}
+
+#text1{
+    color: white;
+    font-size: 49px;
+}
+
+#text2{
+    color: red;
+    font-size: 17px;
+}
+
+button{
+    background-color: skyblue;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #847086;
+    cursor: pointer;
+}
+
+.par1{
+    text-align: left right;
+}
