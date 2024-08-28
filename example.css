@@ -91,6 +91,7 @@ button:hover{
     cursor: pointer;
 }
 
-.par1{
-    text-align: left right;
+main{
+    text-align: justify;
+    padding: 30px;
 }
