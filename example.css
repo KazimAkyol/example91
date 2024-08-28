@@ -1,7 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: #ACCCDE;
+    padding: 1.5rem;
+}
+
+.sign-in{
+    float: right;
+    padding-top: 10px;
+    padding-right: 0.5rem;
+}
+
+.sign-in:hover{
+    text-decoration: underline;
+}
+
+.sign-in a{
+    color: #920101;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* NAV */
+
+nav.sticky{
+    background-color: #cab3a79c;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    padding: 2rem;
+    text-align: center;
+}
+
+nav.sticky a{
+    text-decoration: none;
+    color: black;
+    margin: 0.8rem;
+    font-family: "DynaPuff", system-ui;
+    font-size: 16px;
+}
+
+nav.sticky a:hover{
+    color: white;
+}
